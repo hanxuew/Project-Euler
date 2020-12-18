@@ -6,7 +6,9 @@
 // What is the largest prime factor of the number 600851475143 ?
 
 #include <stdio.h>
+#include <iostream>
 #define NUM 600851475143
+using namespace std;
 
 int main() {
     long num = NUM;
@@ -18,5 +20,7 @@ int main() {
         }
     }
     if (num != 1) max_prime = num;
-    printf(max_prime);
-    ret
+    // printf(max_prime);
+	cout << max_prime << endl;
+    return 0;
+}
